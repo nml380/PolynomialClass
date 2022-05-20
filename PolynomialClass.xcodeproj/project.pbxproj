@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A92DDD91283837C700CF4C74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A92DDD90283837C700CF4C74 /* main.cpp */; };
+		A92DDD99283837F800CF4C74 /* polynomial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A92DDD97283837F800CF4C74 /* polynomial.cpp */; };
+		A92DDD9D2838384800CF4C74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A92DDD9B2838384800CF4C74 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		A92DDD8D283837C700CF4C74 /* PolynomialClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PolynomialClass; sourceTree = BUILT_PRODUCTS_DIR; };
-		A92DDD90283837C700CF4C74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A92DDD97283837F800CF4C74 /* polynomial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = polynomial.cpp; sourceTree = "<group>"; };
+		A92DDD98283837F800CF4C74 /* polynomial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = polynomial.hpp; sourceTree = "<group>"; };
+		A92DDD9A2838381200CF4C74 /* polynomial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = polynomial.h; sourceTree = "<group>"; };
+		A92DDD9B2838384800CF4C74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A92DDD9C2838384800CF4C74 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		A92DDD8F283837C700CF4C74 /* PolynomialClass */ = {
 			isa = PBXGroup;
 			children = (
-				A92DDD90283837C700CF4C74 /* main.cpp */,
+				A92DDD97283837F800CF4C74 /* polynomial.cpp */,
+				A92DDD9B2838384800CF4C74 /* main.cpp */,
+				A92DDD9C2838384800CF4C74 /* main.hpp */,
+				A92DDD9A2838381200CF4C74 /* polynomial.h */,
+				A92DDD98283837F800CF4C74 /* polynomial.hpp */,
 			);
 			path = PolynomialClass;
 			sourceTree = "<group>";
@@ -119,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92DDD91283837C700CF4C74 /* main.cpp in Sources */,
+				A92DDD9D2838384800CF4C74 /* main.cpp in Sources */,
+				A92DDD99283837F800CF4C74 /* polynomial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
